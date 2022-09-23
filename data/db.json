@@ -1,0 +1,174 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Yurledys",
+      "apellidos": "Puche Mosquera",
+      "email": "yurledys@gmail.com",
+      "password": "1234",
+      "typoUser": "admin",
+      "imagen": "../imagen/pexels-christina-morillo-1181672.jpg",
+      "Frase": "si todo el universos carece de sentido, jamas habriamos descubierto que no tiene sentido. C. S. Lewis"
+    },
+    {
+      "id": 2,
+      "name": "Liam Ezequiel",
+      "apellidos": "Ferro Puche",
+      "email": "liam@gmail.com",
+      "password": "12345",
+      "typoUser": "cliente",
+      "imagen": "../imagen/pexels-andrea-piacquadio-3765108.jpg",
+      "Frase": "si todo el universos carece de sentido, jamas habriamos descubierto que no tiene sentido. C. S. Lewis"
+    },
+    {
+      "id": 3,
+      "name": "Sadys",
+      "apellidos": "Blanco torreglosa",
+      "email": "sadys@gmail.com",
+      "password": "123456",
+      "typoUser": "cliente",
+      "imagen": "../imagen/pexels-gabriela-pereira-1753796.jpg",
+      "Frase": "si todo el univeros carece de sentido, jamas habriamos descubierto que no tiene sentido. C. S. Lewis"
+    },
+    {
+      "id": 4,
+      "name": "Danyely",
+      "apellidos": "Guerrero Chicaiza",
+      "email": "kathe@gmail.com",
+      "password": "1234",
+      "typoUser": "cliente",
+      "imagen": "../imagen/pexels-cottonbro-4855373.jpg",
+      "Frase": "si todo el univeros carece de sentido, jamas habriamos descubierto que no tiene sentido. C. S. Lewis"
+    },
+    {
+      "id": 5,
+      "name": "Jenny Vanessa",
+      "apellidos": "Quinto Córdoba",
+      "email": "jennyvanessaq@gmail.com",
+      "password": "(frontend)",
+      "typoUser": "admin",
+      "imagen": "../imagen/pexels-christina-morillo-1181570.jpg",
+      "Frase": "¿Quien cómo Dios?"
+    },
+    {
+      "id": 6,
+      "name": "Patricia",
+      "apellidos": "Lopez Renteria",
+      "email": "vane.quinto19@gmail.com",
+      "password": "1152192772Jv",
+      "typoUser": "cliente",
+      "imagen": "../imagen/pexels-cottonbro-6344089.jpg",
+      "Frase": "No estás deprimido, estás distrído"
+    },
+    {
+      "id": 7,
+      "name": "Daniela",
+      "apellidos": "Freire Cartagena",
+      "email": "dani@gmail.com",
+      "password": "9876",
+      "typoUser": "cliente",
+      "imagen": "../imagen/pexels-cottonbro-4861315.jpg",
+      "Frase": "si todo el univeros carece de sentido, jamas habriamos descubierto que no tiene sentido. C. S. Lewis"
+    },
+    {
+      "id": 8,
+      "name": "Rubén",
+      "apellidos": "Guerrero Palacios",
+      "email": "wil@gmail.com",
+      "password": "98765",
+      "typoUser": "cliente",
+      "imagen": "../imagen/pexels-александр-романов-12077463.jpg",
+      "Frase": "si todo el univeros carece de sentido, jamas habriamos descubierto que no tiene sentido. C. S. Lewis"
+    },
+    {
+      "id": 9,
+      "name": "Rocicler",
+      "apellidos": "Mosquera Rivas",
+      "email": "rosi@gmail.com",
+      "password": "987654",
+      "typoUser": "cliente",
+      "imagen": "../imagen/pexels-tima-miroshnichenko-6550175.jpg",
+      "Frase": "si todo el univeros carece de sentido, jamas habriamos descubierto que no tiene sentido. C. S. Lewis"
+    },
+    {
+      "name": "Leidy Johana",
+      "apellidos": "Quinto Córdoba",
+      "email": "johana.quinto@gmail.com",
+      "password": "5642",
+      "typoUser": "cliente",
+      "imagen": "https://images.pexels.com/photos/2879594/pexels-photo-2879594.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "Frase": "E che la vita ti riserve cio che serve spero, che piangerai per cose brutte e cose belle spero, e che le tue paure siano pure e l'alegria mancata poi divente amore",
+      "id": 10
+    },
+    {
+      "name": "Vanessa",
+      "apellidos": "Calautti",
+      "email": "vanessa.calautti@hotmail.com",
+      "password": "071991",
+      "typoUser": "admin",
+      "imagen": "https://images.pexels.com/photos/4866046/pexels-photo-4866046.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "Frase": "Puoi essere quello che voui basta scordarti di quello che seri. Per essere quello che vuoi devi scrodarti di quello che sei, Anastassio \\\"Correre\\\".",
+      "id": 11
+    },
+    {
+      "name": "Claudio",
+      "apellidos": "Calautti",
+      "email": "claudio.calautti@gmail.com",
+      "password": "971991",
+      "typoUser": "admin",
+      "imagen": "https://images.pexels.com/photos/10626006/pexels-photo-10626006.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "Frase": "Tutto per te.",
+      "id": 12
+    },
+    {
+      "name": "Claudio",
+      "apellidos": "Calautti",
+      "email": "claudio.calautti@gmail.com",
+      "password": "071989",
+      "typoUser": "admin",
+      "imagen": "https://images.pexels.com/photos/10626006/pexels-photo-10626006.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "Frase": "Spacco sto sito.",
+      "id": 13
+    },
+    {
+      "name": "Santiago",
+      "apellidos": "Grande",
+      "email": "santiago@hotmail.com",
+      "password": "santiago",
+      "typoUser": "admin",
+      "imagen": "https://images.pexels.com/photos/10626019/pexels-photo-10626019.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "Frase": "Un hombre solo tiene derecho de mirar a otro hacia abajo cuando tiene que ayudarlo a levantarse”. “El secreto de una buena vejez no es otra cosa que un pacto honrado con la soledad.” “Lo único que me duele de morir, es que no sea de amor.",
+      "id": 14
+    },
+    {
+      "name": "Dimitrio",
+      "apellidos": "Córdoba",
+      "email": "dimitrio.cordoba@hotmail.com",
+      "password": "amor",
+      "typoUser": "cliente",
+      "imagen": "https://images.pexels.com/photos/8500671/pexels-photo-8500671.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "Frase": "Nunca, nunca tengas miedo de hacer lo correcto, especialmente si el bienestar de una persona o animal está en juego. Los castigos de la sociedad son pequeños en comparación con las heridas que infligimos a nuestra alma cuando miramos para otro lado.",
+      "id": 15
+    },
+    {
+      "name": "Changbin",
+      "apellidos": "Seo",
+      "email": "katherin.quinto077@gmail.com",
+      "password": "seochangbin",
+      "typoUser": "cliente",
+      "imagen": "https://i.pinimg.com/originals/f7/bd/3f/f7bd3f82296be3515850389bd7e61f4d.jpg",
+      "Frase": "Seo Changbin best rapper ",
+      "id": 16
+    },
+    {
+      "name": "jo",
+      "apellidos": "quinto",
+      "email": "johanaquintoc@gmail.com",
+      "password": "00johana",
+      "typoUser": "cliente",
+      "imagen": "https://www.geekmi.news/__export/1613874334941/sites/debate/img/2021/02/20/sukuna-1_crop1613874238680.jpg_1075417459.jpg",
+      "Frase": "verdad diferente de palabras",
+      "id": 17
+    }
+  ]
+}

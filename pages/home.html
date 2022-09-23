@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Home</title>
+</head>
+<body>
+    <main>
+        <div id="contenedor" class="contenedor">
+            <section class="left_side">
+                <h1>Profile</h1>
+                <!-- <div class="perfil"> -->
+                <div class="userImage">
+                    <img id="avatarUsuario" src="../imagen/foto libro.jpg" alt="User picture" class="imgUsuario">
+                </div>
+                <div class="infUsuario-columns">
+                    <div class="div_infUsuario">
+                        <span class="datosUsuario">Nombre:</span>
+                        <span class="datosUsuario">Apellido:</span>
+                        <span class="datosUsuario">e-mail:</span>
+                        <span class="datosUsuario">Perfil:</span>
+                        <span class="datosUsuario">Frase:</span>
+                    </div>
+                    <div id="infoUsuario" class="div_infUsuario-right">
+                        <h3 class="nombreUsuario">Jenny Vanessa</h3>
+                        <h3 class="nombreUsuario">Quinto Córdoba</h3>
+                        <h3 class="nombreUsuario">jennyvanessaq@gmail.com</h3>
+                        <h3 class="nombreUsuario">Usuario</h3>
+                        <p class="frase">"si todo el univeros carece de sentido, jamas habriamos descubierto que no
+                            tiene sentido. C. S. Lewis"</p>
+                    </div>
+                    <button class="btnEditar ocultar" id="editar">Editar</button>
+                    <a href="./administrador.html" class="linkAdmin" id="pageAdmin">Ver listado de usuarios</a>
+                </div>
+
+                <!-- </div> -->
+                <div class="formularioUsuario ocultar" id="formularioUsuario">
+                    <h2>Editar Perfil</h2>
+                    <input id="name" type="text" placeholder="Nombre">
+                    <input id="apellidos" type="text" placeholder="Apellidos">
+                    <input id="email" type="email" placeholder="Email">
+                    <input id="password" type="password" placeholder="Contraseña">
+                    <input id="typoUser" type="text" placeholder="Usuario">
+                    <input id="imagen" type="url" placeholder="Imagen">
+                    <input id="Frase" type="text" placeholder="Frase">
+                    <button id="btnGuardar" class="btnGuardar">Guardar</button>
+                </div>
+            </section>
+            <aside class="container-right">
+                <div class="imagenSign">
+                    <img id="imagenDerecha" src="../imagen/User2.jpg" alt="" class="imgRight">
+                    <div class="fraseSign">
+                        <h2>"We've been usign untitled to kick start every new project and can't imagine working
+                            without it."</h2>
+                        <div class="fraseSignBtn">
+                            <div>
+                                <h3>Andi Lane</h3>
+                                <p>Founder,Catalog</p>
+                                <p>Web Design Agency</p>
+                            </div>
+                            <div class="action">
+                                <figure class="estrella"> <img src="../imagen/star.png" alt="star" class="star">
+                                </figure>
+
+                                <div class="btnFecha">
+
+                                    <button class="FlechaBtn1"><img src="../imagen/flechaizq.png" class="flecha"
+                                            alt=""></button>
+                                    <button class="FlechaBtn2"><img src="../imagen/flechaderecha.png" class="flecha"
+                                            alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <script src="../script/home.js"></script>
+</body>
+
+</html>

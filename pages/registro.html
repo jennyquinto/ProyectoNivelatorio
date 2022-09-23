@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Sing Up</title>
+</head>
+
+<body>
+    <main>
+        <div class="contenedor" id="contenedor">
+            <section class="container-left">
+                <div class="div__form_container-left">
+                    <h1>Create an account</h1>
+                    <form id="formSignUp">
+                        <div class="datos">
+                            <label for="name">Nombres</label>
+                            <input type="text" id="name" name="nombre" placeholder="Enter your firts name..." class="input"
+                                required />
+                        </div>
+                        <div class="datos">
+                            <label for="apellidos">Apellidos</label>
+                            <input type="text" id="apellidos" name="apellido" placeholder="Enter your last name..." class="input"
+                                required />
+                        </div>
+                        <div class="datos">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your e-mail..." class="input"
+                                required />
+                        </div>
+                        <div class="datos">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" class="input" placeholder="Enter your password..."
+                                required />
+                        </div>
+                        <div class="datos">
+                            <label for="typoUser">Tipo de cuenta</label>
+                            <select form="formSignUp" name="cuenta" class="input" required >
+                                <option value="cliente" selected>Cliente</option>
+                                <option value="admin">Administrador</option>
+                              </select>
+                        </div>
+                        <div class="datos">
+                            <label for="imagen">Avatar</label>
+                            <input type="url" id="imagen" name="imagen" class="input" placeholder="url image..."
+                                required />
+                        </div>
+                        <div class="datos">
+                            <label for="Frase">Frase</label>
+                            <textarea name="frase" id="Frase" cols="" rows="" class="fraseUsuario"></textarea>
+                        </div>
+                        <button type="submit" id="btnSignUp" class="input btnSign">Sign Up</button>
+                    </form>
+                    
+                </div>
+            </section>
+            <aside class="container-right">
+                <div class="imagenSign">
+                    <img src="/imagen/pexels-tima-miroshnichenko-9572348.jpg" alt="" class="imgRight">
+                    <div class="fraseSign">
+                        <h2>"We've been usign untitled to kick start every new project and can't imagine working
+                            without it."</h2>
+                        <div class="fraseSignBtn">
+                            <div>
+                                <h3>Andi Lane</h3>
+                                <p>Founder,Catalog</p>
+                                <p>Web Design Agency</p>
+                            </div>
+                            <div class="action">
+                                <figure class="estrella"> <img src="../imagen/star.png" alt="star" class="star">
+                                </figure>
+
+                                <div class="btnFecha">
+
+                                    <button class="FlechaBtn1"><img src="../imagen/flechaizq.png" class="flecha"
+                                            alt=""></button>
+                                    <button class="FlechaBtn2"><img src="../imagen/flechaderecha.png" class="flecha"
+                                            alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <script src="../script/SignUp.js"></script>
+</body>
+
+</html>

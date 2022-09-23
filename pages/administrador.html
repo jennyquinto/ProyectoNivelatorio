@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Admin</title>
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="div__header">
+            <button class="btnBackHome"><a href="./home.html">back</a></button>
+            <span>>></span>
+            <img src="../imagen/home.svg" alt="House icon">
+        </div>
+    </header>
+    <main class="main__body">
+        <h1>Listado de Usuarios</h1>
+        <div class="searchUser">
+            <span>Buscar:</span>
+            <input type="text" placeholder="Nombre usuario...">
+        </div>
+        <table class="table__main">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Last Name</th>
+                    <th>E-mail</th>
+                    <th>Password</th>
+                    <th>Perfil</th>
+                    <th>Avatar</th>
+                    <th>Frase</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="tbody__table__container">
+                <tr>
+                    <td>5</td>
+                    <td>Jenny Vanessa</td>
+                    <td>Quinto Córdoba</td>
+                    <td>jennyvanessaq@gmail.com</td>
+                    <td>(frontend)</td>
+                    <td>admin</td>
+                    <td><img src="../imagen/User2.jpg" alt="User image" class="imgUsuario"></td>
+                    <td><span>"Si todo el univeros carece de sentido, jamas habriamos descubierto que no tiene sentido.
+                            C. S. Lewis"</span></td>
+                    <td>
+                        <div class="div__table_action">
+                            <button id="btnEditUser" class="btnEditarUser">Editar</button>
+                            <button id="btnDeletUser" class="btnEliminarUser">Eliminar</button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <form class="form-admin ocultar" id="form__main">
+            <span id="nombreUser">Editar información de Jenny:</span>
+            <input id="name" type="text" placeholder="Nombre" required>
+            <input id="apellidos" type="text" placeholder="Apellidos" required>
+            <input id="email" type="email" placeholder="Email" required>
+            <input id="password" type="password" placeholder="Contraseña" required>
+            <input id="typoUser" type="text" placeholder="Tipo de usuario" required>
+            <input id="imagen" type="text" placeholder="Imagen" required>
+            <input id="Frase" type="text" placeholder="Frase" required>
+            <button id="btnSave" class="btnGuardar" type="submit">Guardar</button>
+        </form>
+    </main>
+    <script src="../script/administrador.js"></script>
+</body>
+
+</html>

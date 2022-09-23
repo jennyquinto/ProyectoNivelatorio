@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.contenedor{
+    width: 100vw;
+    display: flex;
+
+}
+
+.container-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.div__form_container-left{
+    width: 90%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.datos {
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 10px;
+}
+
+.form {
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+
+.input {
+    height: 25px;
+    width: 100%;
+
+}
+.btnSign{
+    background-color: black;
+    color: white;
+}
+.container- h1 {
+    font-weight: bolder;
+}
+
+
+.container-right {
+    display: flex;
+    height: 600px;
+    position: relative;
+    width: 50%;
+    justify-content: flex-end;
+    
+}
+.imgRight{
+    width: 650px;
+    height: 100%;
+    object-fit: cover;
+}
+.imagenSign {
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    
+    
+}
+.container-right .fraseSign{
+    padding: 0 10px;
+}
+.fraseSign {
+    background-color: #dad5d5e0;
+    height: 250px;
+    width: 80%;
+    opacity: 1;
+    color: white;
+    font-size: 14px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position:absolute;
+    bottom: 0;
+    left: 80px;
+}
+
+.fraseSignBtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.star {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    filter: invert(0.5);
+
+}
+
+.estrella {
+    height: 50px;
+}
+
+.btnFecha {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.FlechaBtn1,
+.FlechaBtn2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    opacity: 0.5;
+    border: 1px solid white;
+}
+
+.flecha {
+    width: 100%;
+    height: 50%;
+    border-radius: 30px;
+    object-fit: contain;
+    filter: invert(1);
+}
+
+.action {
+    height: 100%;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.infUsuario{
+    width: 50%;
+    height: 1000px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    font-family: 'Poppins';
+    gap: 30px;
+    /* padding: 30px; */
+    
+    
+}
+.infUsuario h1{
+    font-size: 2.5rem;
+}
+
+.perfil{
+    height: 100px;
+    width: 100%;
+}
+.userImage{
+    height: 100px;
+    width: 30%;
+}
+.div_infUsuario{
+    width: 60%;
+}
+
+.imgUsuario{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 300px;
+}
+.datosUsuario{
+    display: flex;
+    font-size: 0.8rem;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;  
+    text-align: center; 
+     
+}
+.infUsuario-columns{
+    display: flex;
+    gap: 10px;
+}
+.div_infUsuario{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.div_infUsuario-right{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   line-height: 28px;
+   
+}
+.btnEditar{
+    width: 200px ;
+    height: 50px;
+    background-color:black;
+    color: white;
+    border-radius: 10px;    
+}
+.formularioUsuario{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* margin-top: 25px; */
+}
+.formularioUsuario input{
+    height: 30px;
+
+}
+.ocultar{
+    /* display:none; */
+    visibility: hidden;
+}
+
+.left_side{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 700px
+}
+table th td{
+    border-collapse: collapse;
+}
+.linkAdmin{
+    color: black;
+}
+.btnBackHome{    
+   background-color: black;
+   width: 3rem;
+   border-radius: 5px;
+   
+}
+.encabezado{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 20vh;
+    background-color: #F0F0F0;
+    padding: 0 10%;
+}
+.btnBackHome a{
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+.div__header{ 
+    display: flex;       
+    height: 25%;
+    gap: 5px;
+}
+.div__header img{        
+    height: 100%;
+}
+.main__body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 10%;
+    gap: 10px;
+}
+.table__main{
+    border-collapse : collapse;   
+    padding: 10px; 
+}
+.table__main, td, th {
+    border: 1px solid;
+    font-size: smaller;
+}
+.searchUser{
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+    gap: 5px;
+}
+.div__table_action{
+    display: flex;
+    gap: 3px;
+}
+.btnEditarUser{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 2px;
+    font-size: 10px;
+}
+.btnEliminarUser{
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    padding: 2px;
+    font-size: 10px;
+}
+.form-admin{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-admin input{
+    height: 20px;
+}
+
+.btnGuardar{
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.fraseUsuario{
+    height: 70px;
+    width: 100%;
+}
