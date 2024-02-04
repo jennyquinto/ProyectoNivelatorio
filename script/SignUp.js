@@ -1,4 +1,4 @@
-const url = 'http://localhost:3000/users';
+const url = 'https://proyecto-nivelatorio.vercel.app/users';
 
 const formNewUser = document.getElementById('formSignUp');
 
