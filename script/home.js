@@ -11,7 +11,7 @@ const txtFrase = document.getElementById('Frase');
 const btnGuardar = document.getElementById('btnGuardar');
 const pageAdmin = document.getElementById('pageAdmin');
 
-const url = 'http://localhost:3000/users';
+const url = 'https://proyecto-nivelatorio.vercel.app/users';
 
 const datosUsuario = async (url) => {
     try {
