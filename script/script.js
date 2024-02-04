@@ -5,7 +5,7 @@ const form = document.getElementById('form');
 
 let arrayDatosUsuarios = [];
 
-const url = 'http://localhost:3000/users';
+const url = 'https://proyecto-nivelatorio.vercel.app/users';
 
 const datosUsuario = async () => {
     try {
