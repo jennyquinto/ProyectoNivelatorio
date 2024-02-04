@@ -1,4 +1,4 @@
-const URL = "http://localhost:3000/users";
+const URL = "https://proyecto-nivelatorio.vercel.app/users";
 
 const getData = async (url) => {
     try {
